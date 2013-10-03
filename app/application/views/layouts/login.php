@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Tiny Issue</title>
+<title>Incidencias</title>
 
 <?php echo Asset::styles(); ?>
 </head>
@@ -18,19 +18,19 @@
 					<tr>
 						<td colspan="2" style="color: #a31500;"><?php echo Session::get('error'); ?></td>
 					</tr>
-					<tr><th colspan="2">Login to your account</th></tr>
+					<tr><th colspan="2">Accede con tu cuenta</th></tr>
 					<tr>
 						<th>Email</th>
 						<td><input type="text" name="email" /></td>
 					</tr>
 					<tr>
-						<th>Password</th>
+						<th>Contraseña</th>
 						<td><input type="password" name="password" /></td>
 					</tr>
 					<tr>
 						<th></th>
 						<td>
-							<label><input type="checkbox" value="1" name="remember" /> Remember me? </label>
+							<label><input type="checkbox" value="1" name="remember" /> Recuérdame </label>
 							<input type="submit" value="Login" class="button primary"/>
 						</td>
 					</tr>
