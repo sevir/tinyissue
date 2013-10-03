@@ -4,7 +4,7 @@ return array(
 
    'welcome' => 'Bienvenido',
 	'users' => 'Usuarios',
-	'administration' => 'Adminsitración',
+	'administration' => 'Administración',
 	'logout' => 'Salir',
 	'dashboard' => 'Dashboard',
 	'your_issues' => 'Tus incidencias',
